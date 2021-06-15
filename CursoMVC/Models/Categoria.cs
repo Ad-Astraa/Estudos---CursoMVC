@@ -10,5 +10,7 @@ namespace CursoMVC.Models
         public int Id { get; set; }  //Code first, id como chave primária
         public string Descricao { get; set; }
 
+        public List<Produto> Produtos { get; set; }
+
     }
 }
